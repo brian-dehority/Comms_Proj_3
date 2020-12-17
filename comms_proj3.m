@@ -109,4 +109,4 @@ H2 = [transpose(parityBits2) eye(ng2-kg2)];
 
 E2 = reshape(stand_2(:, 1, :), [], n2);
 S2 = f2mult(E2, H2.');
-SE_map2 = containers.Map(bi2de(S2), bi2de(E2));
+StandE_2 = containers.Map(bi2de(S2), bi2de(E2));
